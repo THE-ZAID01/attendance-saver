@@ -8,3 +8,4 @@ class Student(Base):
     name = Column(String, nullable=False)
     roll_no = Column(String, unique=True, nullable=False)
     department = Column(String, nullable=False)
+    email = Column(String, unique=True, nullable=False)
